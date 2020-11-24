@@ -1,0 +1,1 @@
+This directory is the database. Where all the shortened URL\'92s are stored. You may delete this file if you wish.
