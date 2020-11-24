@@ -15,7 +15,11 @@ Using the PHP part, the create.php page will write all the necessary HTML code t
 
 Features:
 --------------
-Includes a copy link button made with jQuery so the user may copy the URL in one click.
+Features a copy link button made with jQuery so the user may copy the URL in one click.
+Color changing input field
+Input field only allows a valid URL protocol.
+A styled redirect page as to not look boring.
+Fully supports iOS/iPadOS/macOS dark mode. Added CSS to make the background turn black when dark mode is on on any Apple device.
 
 Alternative uses:
 -----------------
