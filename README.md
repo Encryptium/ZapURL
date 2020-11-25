@@ -28,4 +28,4 @@ Fully supports iOS/iPadOS/macOS dark mode. Added CSS to make the background turn
 Alternative uses:
 -----------------
 Hides the actual URL from view so your anyone who encounters the link will be unaware. (Rick-Roll Somebody)
-If the hidden URL redirects to a malware infested page we are not responsible for the damage.
+If the hidden URL redirects to a malware infested page we are not responsible for the damage done.
