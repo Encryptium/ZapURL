@@ -13,6 +13,10 @@ When a user pastes a URL into the input field and presses enter/return, the inde
 The create.php file will generate a random number that will be the name of the file, and it will also make sure the random number does not match any previous files.
 Using the PHP part, the create.php page will write all the necessary HTML code that will redirect the user to the desired URL through the new generated one.
 
+Ready to Use:
+----------------
+All the code is ready to use. YOU DO NOT NEED TO MODIFY THE CODE TO INSERT YOUR DOMAIN IN ANY PART OF THE FILES. This project is provided "AS IS." So no need to fiddle around.
+
 Features:
 --------------
 Features a copy link button made with jQuery so the user may copy the URL in one click.
