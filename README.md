@@ -17,6 +17,12 @@ Ready to Use:
 ----------------
 All the code is ready to use. YOU DO NOT NEED TO MODIFY THE CODE TO INSERT YOUR DOMAIN IN ANY PART OF THE FILES. This project is provided "AS IS." So no need to fiddle around.
 
+Clone:
+------
+```bash
+git clone https://github.com/jonathanwang2018/URL-Shortener.git
+```
+
 Features:
 --------------
 Features a copy link button made with jQuery so the user may copy the URL in one click.
