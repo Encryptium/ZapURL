@@ -69,7 +69,7 @@ while(file_exists("s/$file.html")){
 
 <div id="info" style="display: none">
 <h3 class="dark">Here is your link!</h3>
-<a id="link" target="_blank" href="/s/<?=$file?>.html">https://[Enter_Domain_Here]/s/<?=$file?>.html</a>
+<a id="link" target="_blank" href="/s/<?=$file?>.html">https://$_SERVER['HTTP_HOST']/s/<?=$file?>.html</a>
 
 <img class="copy" id="lightcopy" src="images/copylight.png" onclick="Copy('#link');" alt="Copy" title="Copy Link">
 <!--<img class="copy" id="dark" style="display:none" src="images/copylight.png" onclick="Copy('#link')" alt="Copy" title="Copy Link">-->
