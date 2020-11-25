@@ -18,9 +18,9 @@ $htmlcode = "<!DOCTYPE html>
 <html>
   <head>
     <title>Redirect</title>
-    <script src='resources/script.js'></script>
-    <link href='resources/style.css' rel='stylesheet' type='text/css' />
-    <link href='resources/redirect.css' rel='stylesheet' type='text/css' />
+    <script src='$_SERVER['HTTP_HOST']/resources/script.js'></script>
+    <link href='$_SERVER['HTTP_HOST']/resources/style.css' rel='stylesheet' type='text/css' />
+    <link href='$_SERVER['HTTP_HOST']/resources/redirect.css' rel='stylesheet' type='text/css' />
     <link href='https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap' rel='stylesheet'>
   </head>
   <body onload=window.location.href='$url1'>
@@ -69,7 +69,7 @@ while(file_exists("s/$file.html")){
 
 <div id="info" style="display: none">
 <h3 class="dark">Here is your link!</h3>
-<a id="link" target="_blank" href="/s/<?=$file?>.html">https://$_SERVER['HTTP_HOST']/s/<?=$file?>.html</a>
+<a id="link" target="_blank" href="/s/<?=$file?>.html">https://<?=$_SERVER['HTTP_HOST']?>/s/<?=$file?>.html</a>
 
 <img class="copy" id="lightcopy" src="images/copylight.png" onclick="Copy('#link');" alt="Copy" title="Copy Link">
 <!--<img class="copy" id="dark" style="display:none" src="images/copylight.png" onclick="Copy('#link')" alt="Copy" title="Copy Link">-->
