@@ -58,8 +58,8 @@ while(file_exists("s/$file.html")){
 <html lang="en-US" dir="ltr">
   <head>
     <title>URL Changer/Shortener | Copy Your Link</title>
-    <script src="script.js"></script>
-    <link href="style.css" rel="stylesheet" type="text/css" />
+    <script src="resources/script.js"></script>
+    <link href="resources/style.css" rel="stylesheet" type="text/css" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js">
     </script>
   </head>
