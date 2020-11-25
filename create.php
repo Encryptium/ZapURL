@@ -12,15 +12,16 @@ You may not redistribute this code without the following conditions.
 
 
 <?php
+$domain = $_SERVER['HTTP_HOST'];
 $url1 = $_POST['urlin'];
 $file = rand(100,1000000);
 $htmlcode = "<!DOCTYPE html>
 <html>
   <head>
     <title>Redirect</title>
-    <script src='$_SERVER['HTTP_HOST']/resources/script.js'></script>
-    <link href='$_SERVER['HTTP_HOST']/resources/style.css' rel='stylesheet' type='text/css' />
-    <link href='$_SERVER['HTTP_HOST']/resources/redirect.css' rel='stylesheet' type='text/css' />
+    <script src='//$domain/resources/script.js'></script>
+    <link href='//$domain/resources/style.css' rel='stylesheet' type='text/css' />
+    <link href='//$domain/resources/redirect.css' rel='stylesheet' type='text/css' />
     <link href='https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap' rel='stylesheet'>
   </head>
   <body onload=window.location.href='$url1'>
