@@ -6,7 +6,7 @@ What it does:
 This simple project shortens/changes the URL that is entered into the input. The code creates a random file name made of a string of numbers.
 Then it displays the new URL which the user can copy and share with friends.
 
-Here is a [working demo.](https://URL.jonathan2018.repl.co/)
+Here is a [working demo.](https://srturl-php.herokuapp.com/)
 
 How it works:
 ---------------
