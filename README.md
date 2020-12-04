@@ -17,7 +17,7 @@ Using the PHP part, the create.php page will write all the necessary HTML code t
 
 ## Ready to Use:
 
-All the code is ready to use. YOU DO NOT NEED TO MODIFY THE CODE TO INSERT YOUR DOMAIN IN ANY PART OF THE FILES. This project is provided "AS IS." So no need to fiddle around.
+All the code is ready to use. You don't need to modify or set up anything since it is perfectly ready to use. But change it up if you want to!
 
 ## Clone:
 
