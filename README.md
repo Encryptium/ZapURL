@@ -22,7 +22,7 @@ All the code is ready to use. You don't need to modify or set up anything since 
 ## Clone:
 
 ```bash
-git clone https://github.com/jonathanwang2018/URL-Shortener.git
+$ git clone https://github.com/jonathanwang2018/URL-Shortener.git
 ```
 
 ## Features:
