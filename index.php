@@ -1,15 +1,3 @@
-<!--
-
-This code was created by Jonathan2018.
-Copyright (c), All Rights Reserved. 2020.\
-
-You may not redistribute this code without the following conditions.
-
-1. Include this copyright note. 
-2. Include everything within this comment including the name and these conditions!
-
--->
-
 <!DOCTYPE html>
 <html lang="en-US" dir="ltr">
   <head>
