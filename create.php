@@ -1,16 +1,3 @@
-<!--
-
-This code was created by Jonathan2018.
-Copyright (c), All Right Reserved. 2020.\
-
-You may not redistribute this code without the following conditions.
-
-1. Include this copyright note. 
-2. Include everything within this comment including the name and these conditions!
-
--->
-
-
 <?php
 $domain = $_SERVER['HTTP_HOST'];
 $url1 = $_POST['urlin'];
@@ -35,15 +22,9 @@ $htmlcode = "<!DOCTYPE html>
   </body>
   </html>";
 
-/*while(file_exists("sites/$file.html")){
-  $file++;
-}*/
-
 while(file_exists("s/$file.html")){
   $file = rand(100,1000000);
 }
-
-
 
   $urlfile = fopen("s/$file.html", "w") or die("Unable to open file!");
   
@@ -73,11 +54,7 @@ while(file_exists("s/$file.html")){
 <a id="link" target="_blank" href="/s/<?=$file?>.html">https://<?=$_SERVER['HTTP_HOST']?>/s/<?=$file?>.html</a>
 
 <img class="copy" id="lightcopy" src="images/copylight.png" onclick="Copy('#link');" alt="Copy" title="Copy Link">
-<!--<img class="copy" id="dark" style="display:none" src="images/copylight.png" onclick="Copy('#link')" alt="Copy" title="Copy Link">-->
-
 <p id="copytext" class="dark">Copy Link</p>
-
-
 <a id="again" href="index.php">Hide/Shorten another link here</a>
 
 </div>
