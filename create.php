@@ -15,7 +15,7 @@ $htmlcode = "<!DOCTYPE html>
   
   <h1 id='statuscode'>301/302</h1>
   <h2>You are being redirected. See you soon.</h2>
-  <p>This redirect is created by <a href='index.php'>URL Hider/Shortener</a></p>
+  <p>This redirect is created by <a href='//$domain/'>URL Hider/Shortener</a></p>
   <a href='$url1'>If you're stuck on this page click here to manually redirect.</a>
 
   <pre>Redirect Version: 2.0.7</pre>
