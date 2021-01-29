@@ -1,0 +1,1 @@
+This folder titled "c". It is where the custom URLs will be stored. You may delete this file if you want to.
