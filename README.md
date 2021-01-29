@@ -1,4 +1,4 @@
-# URL-Shortener
+# ZapURL
 Files of a simple URL shortener made with PHP without a SQL database.
 
 What it does:
