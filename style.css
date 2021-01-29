@@ -1,0 +1,300 @@
+* {
+  text-align: center;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  /*-webkit-user-select: none;
+  -ms-user-select: none;
+  user-select: none;*/
+}
+
+::placeholder{
+  font-family: 'Courier New', Courier, monospace;
+  color: whitesmoke;
+}
+
+.type-in{
+  height: 30px;
+  width: 500px;
+  border: none;
+  border-bottom: 5px solid yellow;
+  border-radius: 9px;
+  background-color: #313131;
+  color: white;
+  font-family: 'Nunito', sans-serif;
+}
+
+.type-in:focus{
+  outline: none;
+  border-bottom: 5px solid rgb(12, 233, 12);
+  transition: 0.3s;
+}
+
+.type-in:not(:focus){
+  transition: 0.3s;
+}
+
+.button-in {
+  background-color: #313131;
+  border: none;
+  border-radius: 5px;
+  padding: 10px;
+  transition: 1s;
+}
+
+.button-in:hover{
+  background-color: #222222;
+  transition: 0.3s;
+}
+
+.button-in:active {
+  background-color: #1b1b1b;
+}
+
+
+.auth-btn {
+  background: linear-gradient(45deg, rgb(0, 174, 255), #ff00ff);
+  color: white;
+  text-decoration: none;
+  padding: 10px;
+  border-radius: 20px;
+  position: absolute;
+  left: 10px;
+  top: 5px;
+}
+
+#auth-btn:hover {
+  background: linear-gradient(45deg, #ff00ff, rgb(0, 174, 255));
+  transition: background 0.3s;
+}
+
+button {
+  border: none;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+#link{
+  text-decoration: none;
+  color: orangered;
+  display: block;
+  margin-bottom: 5px;
+
+
+/* Setup for animation */
+  overflow: hidden; 
+  border-right: .15em solid orange; 
+  white-space: nowrap; 
+  margin: 0 auto; 
+  animation-delay: 3s;
+  animation: 
+    typing 3.5s steps(40, end),
+    blink-caret .75s step-end infinite;
+}
+
+/* The typing effect hhehehe */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The blinking cursor animation thing */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange; }
+}
+
+#link:hover{
+  text-decoration: underline;
+  transition: 0.3s;
+}
+
+#again{
+  color: rgb(0, 195, 255);
+  text-decoration: none;
+}
+
+#again:hover{
+  text-decoration: underline;
+}
+
+#enter{
+  padding: 30px;
+  background-color: #141414;
+  border-radius: 15px;
+}
+
+.copy{
+  /*height: 55px;*/
+  height: 50px;
+  width: 80px;
+  border-radius: 4px;
+  cursor: pointer;
+  background-image: url("images/copylink.png");
+
+}
+
+#copytext{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 12px;
+}
+
+#info{
+  background-color: whitesmoke;
+  border-radius: 15px;
+  padding: 10px;
+  margin-top: 25%;
+}
+
+thead{
+  border-bottom: 5px solid grey;
+}
+
+/* New */
+.gradient-text {
+    background: linear-gradient(45deg, rgb(0, 174, 255), #ff00ff);
+    background-size: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    -moz-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+    -moz-text-fill-color: transparent;
+    font-weight: bold;
+
+}
+
+#error {
+  color: red;
+}
+
+.click {
+  cursor: pointer;
+}
+
+#parent {
+  color: rgb(0, 174, 255);
+}
+
+.position-all {
+  margin-top: 12%;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.top-right {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+
+}
+
+.dropdown-content {
+  display: none;
+  margin-top: 0px;
+}
+
+.dropbtn {
+  margin-bottom: 0px;
+  background-color: rgb(0, 174, 255);
+  border-radius: 4px;
+  color: white;
+}
+
+.dropdown-select {
+  background-color: whitesmoke;
+  color: black;
+  border-radius: 3px;
+}
+
+label {
+  color: white;
+}
+
+input {
+  color: white;
+}
+
+
+/* Other stuff */
+
+#load{
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  left: 3%;
+  bottom: 3%;
+  background-color: #0CB1C4;
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear; 
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */ 
+   /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+
+@media only screen and (min-width: 800px){
+  
+  #enter{
+    margin: 0px 10% 0px 10%;
+  }
+
+  #select-info {
+    margin: 0px 30% 0px 30%;
+  }
+}
+
+@media only screen and (max-width: 700px){
+  
+  input{
+    width: 300px;
+  }
+
+  #link{
+    font-size: 15px;
+  }
+
+  
+}
+
+@media only screen and (max-width: 500px){
+  input{
+    width: 100px;
+  }
+
+  #link{
+    font-size: 14px;
+  }
+}
+
+@media (prefers-color-scheme: dark){
+
+body{
+  background-color: #141414;
+}
+
+* {
+  color: white;
+}
+
+.dark{
+  color: grey;
+}
+
+}
+
