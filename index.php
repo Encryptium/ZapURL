@@ -28,7 +28,6 @@ if (empty($_GET)) {
   }
 
   else if ($errorMSG == "host") {
-    //$errorMSG = "[ERROR] Why do you want to change the URL of the URL changer? Stupid. Anyway, 'You cannot change the URL of the HOST'";
     $errorMSG = "[ERROR] Cannot shorten an already shortened or host URL.";
   }
 
@@ -119,7 +118,7 @@ if (!empty($_POST)) {
 
 
   <div class="position-all">
-  <h1 class="gradient-text">Zap Your URL here!</h1>
+  <h1 class="gradient-text">Zap Your URL here! (GitHub Version)</h1>
   <p id="parent"></p>
 
   <p id="error" onclick="Copy('#error')" class="click"><?=$errorMSG?></p>
